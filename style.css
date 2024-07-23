@@ -1,0 +1,428 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main {
+    background-color: #222;
+    overflow-x: hidden;
+}
+#page1{
+    height: 110vh;
+    width: 100vw;
+    background-color:#C1BAB0;
+    position: relative;
+    overflow: hidden;
+}
+#nav{
+    height: 110px;
+    width: 100%;
+    padding: 0 30px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+}
+#nav img{
+    height: 30px;
+    width: 30%;
+}
+#nav h5{
+    font-size: 15px;
+    font-weight: 100;
+    color:rgb(63, 62, 62) ;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav i{
+    font-size: 18px;
+    width: 30%;
+    text-align: right;
+}
+#elems{
+    /* background-color: chocolate; */
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+#elem1{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+   
+}
+#elem2{
+    width: 25%;
+    height: 100%;
+    /* background-color: aqua; */
+    border-right: 2px solid #636262;
+    border-left: 2px solid #686868;
+    padding:  20px 60px;
+    text-align: center;
+}
+#elem3{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+#elem1 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+#image-div:hover img{
+ scale: 1.1;
+}
+#elem3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+#elem1 h4{
+    font-size: 24px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    font-family: Canopee;
+    font-weight: 200;
+
+}
+#elem3 h4{
+    font-size: 24px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    font-family: Canopee;
+    font-weight: 200;
+
+}
+#elem2 h2{
+    font-size: 70px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    font-family: Canopee;
+    font-weight: 200;
+
+}
+#elem1 h4 span{
+  background-color: #BA3D12;  
+  color: white;
+  font-size: 18px;
+  border-radius: 3px;
+  font-weight: 100;
+  padding: 4px;
+}
+#elem3 h4 span{
+    background-color: #BA3D12;  
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 4px;
+    border-radius: 3px;
+  }
+  #elem3 p {
+    /* font-family: Domaine Disp Cond Medium; */
+    font-size: 20px;
+    font-weight: 100;
+    color: #5F5C57;
+   
+  }
+  #elem1 p {
+   
+    font-size: 20px;
+    font-weight: 100;
+    color: #5F5C57;
+  }
+  #elem2 h3{
+    font-size: 30px;
+    font-family:Poppins ;
+    /* font-family: Domaine Disp Cond Medium;; */
+    font-weight: 100;
+    color: rgb(31, 31, 31);
+    margin: 20px 0;
+
+}
+#elem2 h6{
+    font-size: 15px;
+    font-family:Canopee ;
+    /* font-family: Domaine Disp Cond Medium;; */
+    font-weight: 100;
+    color:  #5F5C57;
+
+}
+#page1 h1{
+    font-size:680px ;
+    letter-spacing: -15px;
+    font-family: Canopee;
+    background-color: #1C1C19;
+    color: #C5BEB4;
+    font-weight: 100;
+    line-height: 520px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+#page2{
+  height: 150vh;
+  width: 100%;
+  background-color: #C5BEB4;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between; 
+  padding: 90px 40px;
+}
+#page2l{
+height: 100%;
+width: 35%;
+padding-right: 50px;
+/* background-color: #BA3D12; */
+border-right: 1px solid #353535;
+
+}
+#page2l h2{
+    font-size: 130px;
+    font-family: Canopee;
+    /* text-align: center; */
+    color: #1C1B19;
+    line-height: 150px;
+    font-weight: 100;
+}
+#page2l img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+#page2l p{
+    font-size: 30px;
+    font-family: Poppins;
+    color: #1C1C1A;
+    margin-top: 20px;
+}
+#page2l  p span{
+    font-size: 60px;
+    background-color: #1C1B19;
+    color: #C5BEB4;
+    border-radius: 3px;
+    font-weight: 100;
+    font-family: Canopee;
+    
+}
+
+#page2l h2 span{
+    font-size: 210px;
+    color: #1C1B19;
+    font-weight: 600;
+    
+}
+#page2r{
+    height: 100%;
+    width: 70%;
+    padding: 0 60px;
+}
+#page2r img{
+    height: 53%;
+    border:1px solid black ;
+   width:100% ;
+   object-fit: cover;
+}
+#page2r h1{
+    font-family: Canopee;
+    font-size: 139px;
+    color:#1C1C1A;
+    letter-spacing: -1px;
+    font-weight: 100;
+}
+#page3{
+    /* height: 50vh; */
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #C5BEB4;
+}
+#page3 h1{
+    font-size: 500px;
+    font-family: Canopee;
+    background-color:#1C1B19 ;
+    color: #C2BBB1;
+    width: fit-content;
+    letter-spacing: -10px;
+    margin-left: 2%;
+    padding: 0 20px;
+    font-weight: 100;
+    line-height: 500px;
+
+}
+#page3 img{
+    height: 450px;
+    position: absolute;
+    top: 0;
+    right: 3%;
+}
+#page4{
+    height: 100vh;
+    /* padding-bottom: 100px; */
+    width: 100%;
+    position: relative;
+    background-color: #C1BAB0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 1px solid black; */
+}
+#page4l{
+    width: 60%;
+    height: 100%;
+    padding: 60px;
+    border-right: 1px solid #3d3d3d;
+
+}
+#page4l h1{
+    font-size: 100px;
+    /* font-family: Poppins; */
+    color: #1B1B19;
+    margin-top: -95px;
+    /* padding-left: 1px; */
+    /* border-right: 1px solid #3b3b3b; */
+}
+#page4l  p{
+    font-family: Poppins;
+    color: #1B1B19;
+    font-size: 18px;
+    margin-top: -20px;
+    /* letter-spacing: -1px; */
+    /* padding-left: 30px; */
+    
+}
+#page4r{
+    width: 40%;
+    height: 100%;
+    /* padding: 10px; */
+    /* background-color: #BA3D12; */
+}
+#page4l img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+#page4r h1{
+    font-size: 140px;
+    color: #1C1B19;
+    font-family: Canopee;
+    margin-top: -35px;
+}
+#page4r h1 span{
+    font-size: 200px;
+}
+#page4r p{
+    font-family: Poppins;
+    color: #1B1B19;
+    font-size: 25px;
+    padding-left: 10px;
+    word-spacing: 20%;
+}
+#page4 p span{
+    font-size: 60px;
+    background-color: #1B1B19;
+    color: #C1BAB0;
+    border-radius: 5px;
+    /* padding: 10px 10px; */
+    font-family: Canopee;
+    
+}
+#page4r #circle{
+    height: 190px;
+    width: 100%;
+    /* background-color: #BA3D12; */
+    border-radius: 50%;
+    border: 1px solid black;
+    flex-wrap: nowrap;
+    /* display: flex; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    
+}
+ #circle h2{
+    font-family: Canopee;
+    font-size: 100px;
+    font-weight: 100;
+    color: #1C1B19;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: translate(-46%); */
+    /* z-index: 999; */
+}
+
+#circle:hover h2{
+    color: #C1BAB0;
+    background-image: url(https://th.bing.com/th/id/R.4d4b573fe79ed589b1d23413799b5893?rik=6lJ35%2fMtP3jELg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fright-arrow-png-arrow-png-image-40020-6304.png&ehk=ed%2bXW74ewBes%2fFisUawt5Zs7T%2bUa8zX076f8062%2bfpo%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+#page5{
+    padding: 30px 0;
+    width: 100%;
+    background-color: #C5BEB4;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#page5::-webkit-scrollbar{
+    display: none;
+}
+#page5 h1{
+    font-size: 100px;
+    font-family: Canopee;
+    font-weight: 100;
+    display: inline-block;
+    margin-right: 20px;
+    animation-timing-function: linear;
+    animation-name: scroll;
+     animation-duration: 7s; 
+      animation-iteration-count: infinite;
+}
+#page5 span{
+    background-color: #1B1B19;
+    color: #C2BBB1;
+    font-family: Poppins;
+    border-radius: 3px;
+    padding: 0 2px;
+}
+#page6{
+    height: 29px ;
+    width: 100%;
+    background-color: #C5BEB4;
+}
+
+@keyframes scroll {
+    0%{
+        transform:translateX(0) ;
+        
+    }
+    100%{
+        transform: translateX(calc(-100% - 24px));
+    }
+}
